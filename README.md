@@ -12,6 +12,10 @@ PD: The function should return a double.
 
 PD2: This program was tested with valgrind, it has no memory leaks nor errors
 
+## BUILD
+
+`gcc -lm main.c calculator.c stack.c stackn.c str.c queue.c -o calc`
+
 ## USAGE
 
 ./calc "exp".
