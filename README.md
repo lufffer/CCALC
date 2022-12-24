@@ -11,3 +11,11 @@ also inside caculator.c) and that's it.
 PD: The function should return a double.
 
 PD2: This program was tested with valgrind, it has no memory leaks nor errors
+
+## USAGE
+
+./calc "exp".
+
+### Example
+
+./calc "(5+6)\*2 + sin(pi)"
